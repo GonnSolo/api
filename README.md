@@ -13,3 +13,6 @@ bun run dev
 ```
 
 Open http://localhost:3000/ with your browser to see the result.
+
+
+Para correr las pruebas, desde la carpeta de api, corre bun run dev, en otra terminal corre npx playwright test --reporter=list, y para ver los resultados de que todo corrió bien (super ultra perfectamente bien) corre npx playwright show-report
